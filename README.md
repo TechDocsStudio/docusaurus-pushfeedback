@@ -1,17 +1,17 @@
 # docusaurus-pushfeedback
 
-Ask AI chatbot for Docusaurus sites.
+Feedback widget for Docusaurus sites.
 
 ## Get started
 
-See [Feedback widget for Docusaurus](https://docs.biel.ai/installation/docusaurus) documentation.
+See [Feedback widget for Docusaurus](https://docs.pushfeedback.com/installation/docusaurus) documentation.
 
 ## Support
 
-Need assistance? [Contact us](https://docs.biel.ai/support) for help.
+Need assistance? [Contact us](https://docs.pushfeedback.com/support) for help.
 
 ## License
 
-Copyright (c) 2024 Biel.ai
+Copyright (c) 2023 PushFeedback
 
 Licensed under the [MIT License](LICENSE.md).
