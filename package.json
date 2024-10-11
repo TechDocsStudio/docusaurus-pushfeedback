@@ -1,0 +1,33 @@
+{
+  "name": "docusaurus-pushfeedback",
+  "version": "1.0.1",
+  "description": "Feedback widget for Docusaurus",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prettier": "prettier --write **/*.{js,jsx,ts,tsx,md,yml,json}"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": "https://github.com/pushfeedback/docusaurus-pushfeedback.git",
+  "author": "PushFeedback Team <info@pushfeedback.com>",
+  "license": "MIT",
+  "prettier": {
+    "semi": false
+  },
+  "devDependencies": {
+    "@docusaurus/types": "^3.0.0",
+    "@types/react": "^18.2.29",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-helmet": "^6.1.0",
+    "commander": "^6.2.1",
+    "prettier": "^3.2.5",
+    "typescript": "~5.2.2"
+  },
+  "peerDependencies": {
+    "@docusaurus/core": "3.x"
+  }
+}
