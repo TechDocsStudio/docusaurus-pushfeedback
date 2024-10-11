@@ -14,4 +14,4 @@ Need assistance? [Contact us](https://docs.pushfeedback.com/support) for help.
 
 Copyright (c) 2023 PushFeedback
 
-Licensed under the [MIT License](LICENSE.md).
+Licensed under the [MIT License](LICENSE).
