@@ -20,6 +20,7 @@ interface FeedbackOptions {
     hideIcon?: boolean;
     hideScreenshotButton?: boolean;
     version?: string;
+    footerText?: string;
 }
 
 const DEFAULT_OPTIONS: FeedbackOptions = {
