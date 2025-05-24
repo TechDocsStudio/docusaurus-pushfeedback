@@ -1,26 +1,38 @@
 interface FeedbackOptions {
+    // Button props
+    buttonPosition?: string;
+    buttonStyle?: string;
     feedbackButtonText?: string;
-    customFont?: string;
+    hideIcon?: boolean;
+    hideMobile?: boolean;
+    version?: string;
+    // Modal props
+    customFont?: boolean;
+    emailAddress?: string;
+    hideEmail?: boolean;
+    hidePrivacyPolicy?: boolean;
+    hideRating?: boolean;
+    hideScreenshotButton?: boolean;
+    modalPosition?: string;
+    project?: string;
+    rating?: number;
+    ratingMode?: string;
+    emailPlaceholder?: string;
     errorMessage?: string;
     errorMessage403?: string;
     errorMessage404?: string;
+    footerText?: string;
+    messagePlaceholder?: string;
     modalTitle?: string;
-    modalTitleSuccess?: string;
     modalTitleError?: string;
-    modalPosition?: string;
-    sendButtonText?: string;
-    project?: string;
+    modalTitleSuccess?: string;
+    privacyPolicyText?: string;
+    ratingPlaceholder?: string;
+    ratingStarsPlaceholder?: string;
     screenshotButtonText?: string;
     screenshotTopbarText?: string;
-    email?: string;
-    emailPlaceholder?: string;
-    messagePlaceholder?: string;
-    buttonStyle?: string;
-    buttonPosition?: string;
-    hideIcon?: boolean;
-    hideScreenshotButton?: boolean;
-    version?: string;
-    footerText?: string;
+    sendButtonText?: string;
+    successMessage?: string;
 }
 
 const DEFAULT_OPTIONS: FeedbackOptions = {
