@@ -13,6 +13,7 @@ interface FeedbackOptions {
     hidePrivacyPolicy?: boolean;
     hideRating?: boolean;
     hideScreenshotButton?: boolean;
+    isEmailRequired?: boolean;
     modalPosition?: string;
     project?: string;
     rating?: number;
