@@ -37,6 +37,10 @@ interface FeedbackOptions {
     screenshotTopbarText?: string;
     sendButtonText?: string;
     successMessage?: string;
+    // Canvas editor props
+    canvasEditorTitle?: string;
+    canvasEditorCancelText?: string;
+    canvasEditorSaveText?: string;
 }
 
 const DEFAULT_OPTIONS: FeedbackOptions = {
