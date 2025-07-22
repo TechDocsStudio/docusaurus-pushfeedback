@@ -33,6 +33,7 @@ interface FeedbackOptions {
     ratingPlaceholder?: string;
     ratingStarsPlaceholder?: string;
     screenshotButtonText?: string;
+    screenshotTakingText?: string;
     screenshotTopbarText?: string;
     sendButtonText?: string;
     successMessage?: string;
