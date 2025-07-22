@@ -1,10 +1,12 @@
 interface FeedbackOptions {
     // Button props
+    sessionId?: string;
     buttonPosition?: string;
     buttonStyle?: string;
     feedbackButtonText?: string;
     hideIcon?: boolean;
     hideMobile?: boolean;
+    metadata?: string;
     version?: string;
     // Modal props
     customFont?: boolean;
